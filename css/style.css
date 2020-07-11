@@ -387,3 +387,56 @@ main #aboutus .columna:hover .marco, main #aboutus .columna:hover img {
 /* FIN ABOUT US */
 
 /* main final */
+
+/* INICIO BLOG */
+
+#ourblog .padre {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#ourblog .padre h2 {
+    font-family: var(--fuentePrincipal);
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: left;
+    margin: 1em 0;
+}
+
+#ourblog .padre .tom {
+    color: var(--color-principal);
+    margin-bottom: 0.6em;
+}
+
+#ourblog .padre article {
+    width: 44%;
+    margin: 3%;
+    position: relative;
+}
+
+.fecha {
+    background-color: rgba(250, 87, 58, 0.7);
+    color: white;
+    font-size: 1em;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 0px;
+    padding: 10px;
+    text-align: center;
+}
+
+@media(min-width: 62.750em) {
+    #ourblog .padre article {
+        width: 30%;
+        margin: 1.66666666666%;
+    }
+    .fecha {
+        width: 66px;
+        height: 66px;
+        padding: 12px;
+        font-size: 1.4em;
+    }
+}
+
+/* FIN BLOG */
