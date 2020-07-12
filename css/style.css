@@ -426,10 +426,16 @@ main #aboutus .columna:hover .marco, main #aboutus .columna:hover img {
     text-align: center;
 }
 
-@media(min-width: 62.750em) {
+@media(min-width: 48em) {
     #ourblog .padre article {
         width: 30%;
         margin: 1.66666666666%;
+    }
+    #ourblog {
+        margin-top: -50px;
+    }
+    .padre {
+        margin-top: -30px;
     }
     .fecha {
         width: 66px;
@@ -439,4 +445,137 @@ main #aboutus .columna:hover .marco, main #aboutus .columna:hover img {
     }
 }
 
-/* FIN BLOG */
+/* ***************f i n b l o g      */
+
+/* 
+inicio menu */
+
+.blanco {
+    background-color: white;
+}
+
+.wrapermenu {
+    background-color: var(--color-secundario);
+    color: white;
+    font-size: .9em;
+}
+
+#todaysmenu h2 {
+    color: white;
+}
+
+.movil {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.estrechotop {
+    margin-top: -60px;
+}
+
+.estrechotop a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-size: 0.9em;
+}
+
+.estrechotop a:hover {
+    background-color: var(--color-principal);
+}
+
+.estrechobottom {
+    margin: 50px 0;
+    line-height: 16px;
+    ;
+}
+
+.estrechobottom .underline {
+    width: 50px;
+    margin-left: 0;
+}
+
+.estrechobottom h3, .texto h3 {
+    font-weight: bold;
+}
+
+.estrechobottom p {
+    font-size: .7em;
+    margin-top: -10px;
+}
+
+.texto h3 span {
+    color: var(--color-principal);
+}
+
+.texto h3 {
+    padding: 15px 0;
+}
+
+.plato {
+    margin: 40px 0;
+}
+
+.texto p {
+    font-size: 0.8em;
+}
+
+.none {
+    display: inline-block;
+    margin: 10px 0 0 330px;
+}
+
+@media(min-width: 48em) {
+    .blanco {
+        padding: 20px 0;
+    }
+    .none {
+        display: none;
+    }
+    .padre {
+        display: flex;
+    }
+    .estrecho {
+        flex: 1 1 30%;
+    }
+    .ancho {
+        flex: 1 1 70%;
+    }
+    .plato {
+        display: flex;
+        height: 100px;
+    }
+    .foto {
+        flex: 1 2 50%;
+    }
+    .texto {
+        flex: 1 10 100%;
+    }
+    .ancho {
+        margin-top: -100px;
+    }
+    .plato img {
+        height: 120px;
+        width: 180px;
+        margin-right: 50px;
+        margin-left: 80px;
+    }
+    .estrechobottom {
+        margin-top: 100px;
+        margin-right: 50px;
+    }
+    .texto p {
+        font-size: 1em;
+    }
+    .estrechobottom p {
+        font-size: .8em;
+        line-height: 20px;
+    }
+    .texto h3 {
+        font-size: 1.2em;
+    }
+    #todaysmenu {
+        margin-bottom: 30px;
+    }
+}
